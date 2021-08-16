@@ -1,0 +1,49 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    min-width: 677px;
+    min-height: 962px;
+    width: 677px;
+    height: 962px;
+    background-image: url(pics/fondo.jpg);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .content {
+    width: calc(100% - 148px);
+    height: calc(100% - 146px);
+    padding: 1rem;
+    color: cornsilk;
+}
+
+.page .content .title {
+    color: indianred;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+}
+
+.center {
+    width: 440px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 0px;
+}
